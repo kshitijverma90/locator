@@ -13,11 +13,11 @@ function Home() {
      <Link to={'/signup'}> <button type="button">Sign Up</button></Link>
     </div>
     <div className="content">
-      <small>Welcome to our</small>
+      <small>Welcome to</small>
       <h1>
-        World's <br /> creative studio
+        Daily <br /> Dump
       </h1>
-      <button type="button"> <a href="https://www.space.com/24839-satellites.html"> Take a Tour</a> </button>
+      <button type="button"> <a href="https://www.globalforestwatch.org/map"> Take a Tour</a> </button>
     </div>
     <div className="bubble" />
   </div>
