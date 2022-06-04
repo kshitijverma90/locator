@@ -1,0 +1,82 @@
+
+.dashboardmain{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.firstline{
+    flex: .2;
+}
+.secondline{
+    margin-top: 40px;
+    margin-left: 40px;
+    /* background-color: white; */
+}
+.thirdline{
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+.search-bar{
+    
+    width: 700px;
+    border:1px solid black;
+    /* background: rgba(65, 58, 58, 0.2); */
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    /* padding: 10px 20px; */
+    backdrop-filter: blur(1.5px) saturate(180%);
+    margin-left: 7em;
+    margin-top: .3em;
+  }
+  .search-bar input{
+    background: transparent;
+    border: solid black 5px;
+    
+    flex: 1;
+    border:0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 21px;
+    color: black;
+  }
+  ::placeholder{
+    color: black;
+  }
+  .search-bar button img{
+    width: 25px;
+  }
+  .search-bar button{
+    border: 0;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: #000000;
+    cursor: pointer;
+  }
+  img{
+    width: 25px;
+  }
+
+.topdash{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.dashbutton{
+    background-color: rgb(186,182,182);
+    border-radius: 10px;
+    color: black;
+    margin-top: .3em;
+    margin-right: 30px;
+    width: 100px;
+    padding: 10px;
+    border: 1px solid black;
+}
+.back{
+    background-color:rgb(190, 241, 241);
+}
